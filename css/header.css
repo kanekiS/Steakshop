@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1{
+    font-family: "Satisfy", cursive;
+}
+.header{
+    background-image: url(https://colorlib.com/preview/theme/tastyrecipes/img/banner/banner.png);
+    background-size: cover;
+    background-position-y: -70px;
+}
+.header .navbar{
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.header .navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
+.header .navbar ul li{
+    cursor: pointer;
+    user-select: none;
+}
+.header .intro{
+    height: 100vh;
+    font-size: 90px;
+    text-align: center;
+    padding-top: 20rem;
+    color: white;
+}
