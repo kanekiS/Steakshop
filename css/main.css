@@ -30,7 +30,7 @@ p{
     color: white;
 }
 .recipe-video{
-    height: 100vh;
+    height: 60vh;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -73,3 +73,25 @@ p{
     top: 40%;
     right: 18%;
 }
+
+/* list Birthday Catering */
+.list-birthday-catering{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    line-height: 5rem;
+}
+.list-birthday-catering div{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.list-birthday-catering p{
+    line-height: 1.2rem;
+}
+
+//
