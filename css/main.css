@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+p{
+    font-size: 14px;
+    color: #777777;
+    font-weight: 400;
+}
 .main{
 
 }
@@ -9,11 +14,6 @@
     height: 100vh;
     text-align: center;
     line-height: 2rem;
-}
-.list-recipe p{
-    font-size: 14px;
-    color: #777777;
-    font-weight: 400;
 }
 .list-recipe button{
     margin-top: 2rem;
@@ -28,4 +28,48 @@
 .list-recipe button:hover{
     background-color: #f7c845;
     color: white;
+}
+.recipe-video{
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+}
+.recipe-video .left{
+    width: 40%;
+}
+.recipe-video .left p{
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+.recipe-video .left h1{
+    font-size: 60px;
+    margin-bottom: 2rem;
+}
+.recipe-video .left button{
+    margin-bottom: 1rem;
+    padding: 13px 30px;
+    border-radius: 30px;
+    outline: none;
+    background-color: #5a099c;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+.recipe-video .right{
+    position: relative;
+}
+.recipe-video .right img:nth-child(1){
+}
+.recipe-video .right img:nth-child(2){
+    position: absolute;
+    left: -22%;
+    top: 6%;
+}
+.recipe-video .right img:nth-child(3){
+    position: absolute;
+    top: 40%;
+    right: 18%;
 }
