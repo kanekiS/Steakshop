@@ -1,0 +1,39 @@
+.footer{
+    height: 70vh;
+    background-color: black;
+    color: #777777;
+    text-align: center;
+}
+table{
+    margin: auto;
+    padding-top: 10rem;
+}
+table td, tr, th{
+    padding: 20px 40px;
+}
+table th{
+    color: white;
+    font-family: "Satisfy", cursive;
+    font-size: 25px;
+}
+table td{
+    font-size: 13px;
+}
+input{
+    margin-top: 20px;
+    line-height: 1.3rem;
+}
+.footer button{
+    line-height: 1.5rem;
+    background-color: #FFC000;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.footer p{
+    margin-top: 2rem;
+}
+.footer p span{
+    color: yellow;
+    font-weight: bold;
+}
