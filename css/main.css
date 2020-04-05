@@ -92,11 +92,10 @@ p{
 /* discovery component */
 
 .discovery{
-    height: 60vh;
+    height: 50vh;
     background-image: url(https://colorlib.com/preview/theme/tastyrecipes/img/recepie/banner.png);
     text-align: center;
     line-height: 10rem;
-    margin-bottom: 10rem;
 }
 .discovery h1{
     font-size: 60px;
@@ -117,3 +116,40 @@ p{
 }
 
 /*  download */
+.download{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.download div{
+    margin: 6rem;
+}
+.download .left{
+    position: relative;
+}
+.download .left img:nth-child(2){
+    position: absolute;
+    left: -20%;
+    top: 10%;
+}
+.download .left img:nth-child(3){
+    position: absolute;
+    right: 20%;
+    bottom: -30%;
+}
+.download button{
+    margin-top: 2rem;
+    padding: 20px 40px;
+    border: 1px solid #DDD;
+    background: white;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: aqua;
+}
+.download button:hover{
+    background-color: #FFC000;
+    color: white;
+}
