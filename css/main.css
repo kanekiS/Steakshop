@@ -4,9 +4,6 @@ p{
     color: #777777;
     font-weight: 400;
 }
-.main{
-
-}
 .list-recipe{
     display: flex;
     justify-content: space-evenly;
@@ -61,8 +58,6 @@ p{
 .recipe-video .right{
     position: relative;
 }
-.recipe-video .right img:nth-child(1){
-}
 .recipe-video .right img:nth-child(2){
     position: absolute;
     left: -22%;
@@ -74,7 +69,7 @@ p{
     right: 18%;
 }
 
-/* list Birthday Catering */
+/* list Birthday Catering component */
 .list-birthday-catering{
     height: 80vh;
     display: flex;
@@ -94,4 +89,31 @@ p{
     line-height: 1.2rem;
 }
 
-//
+/* discovery component */
+
+.discovery{
+    height: 60vh;
+    background-image: url(https://colorlib.com/preview/theme/tastyrecipes/img/recepie/banner.png);
+    text-align: center;
+    line-height: 10rem;
+    margin-bottom: 10rem;
+}
+.discovery h1{
+    font-size: 60px;
+}
+.discovery button{
+    padding: 15px 30px;
+    background-color: tomato;
+    border-radius: 30px;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.discovery button:hover{
+    color: tomato;
+    background: white;
+}
+
+/*  download */
